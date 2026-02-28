@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência do Trabalhador</title>
+    <style>
+        body { background-color: #000; color: #FFD700; font-family: sans-serif; margin: 0; padding: 20px; }
+        header { border-bottom: 2px solid #FF0000; padding-bottom: 10px; margin-bottom: 20px; }
+        .card { border: 1px solid #FFD700; padding: 15px; margin-bottom: 10px; background: #111; }
+        .cidade-nome { font-weight: bold; color: #fff; font-size: 1.2em; }
+        .confisco { color: #FF0000; font-weight: bold; float: right; }
+        .label { font-size: 0.8em; color: #888; display: block; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INTELIGÊNCIA DO TRABALHADOR</h1>
+        <small id="update-time">Carregando dados...</small>
+    </header>
+
+    <div id="dashboard"></div>
+
+    <script>
+        async function fetchData() {
+            try {
+                const response = await fetch('./data/inteligencia.json');
+                const data = await response.json();
+                document.getElementById('update-time').innerText = "Atualizado em: " + data.atualizado;
+                
+                const container = document.getElementById('dashboard');
+                data.dados.forEach(item => {
+                    const section = document.createElement('div');
+                    section.innerHTML = `<div class='cidade-nome'>${item.cidade}</div>`;
+                    
+                    item.analise.forEach(vaga => {
+                        const card = document.createElement('div');
+                        card.className = 'card';
+                        card.innerHTML = `
+                            <span class="confisco">${vaga.confisco} CONFISCADO</span>
+                            <strong>${vaga.setor}</strong>
+                            <span class="label">Salário Nominal: R$ ${vaga.bruto}</span>
+                            <span class="label" style="color:#FFD700">Sobra Real: R$ ${vaga.sobra}</span>
+                        `;
+                        section.appendChild(card);
+                    });
+                    container.appendChild(section);
+                });
+            } catch (e) {
+                document.getElementById('update-time').innerText = "Erro ao carregar dados. Rode o Action primeiro.";
+            }
+        }
+        fetchData();
+    </script>
+</body>
+</html>
 
