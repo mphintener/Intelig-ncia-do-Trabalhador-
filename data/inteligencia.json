@@ -1,0 +1,186 @@
+[
+    {
+        "origem": "FRANCO DA ROCHA",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1029.4,
+                "confisco": "51.0%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 691.9,
+                "confisco": "58.1%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 879.4,
+                "confisco": "53.7%"
+            }
+        ]
+    },
+    {
+        "origem": "CAIEIRAS",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1160.8,
+                "confisco": "44.7%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 800.8,
+                "confisco": "51.5%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 1000.8,
+                "confisco": "47.3%"
+            }
+        ]
+    },
+    {
+        "origem": "OSASCO",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1399.2,
+                "confisco": "33.4%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 1003.2,
+                "confisco": "39.2%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 1223.2,
+                "confisco": "35.6%"
+            }
+        ]
+    },
+    {
+        "origem": "CARAPICUIBA",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1309.8,
+                "confisco": "37.6%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 927.3,
+                "confisco": "43.8%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 1139.8,
+                "confisco": "40.0%"
+            }
+        ]
+    },
+    {
+        "origem": "ITAPEVI",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1088.0,
+                "confisco": "48.2%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 737.0,
+                "confisco": "55.3%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 932.0,
+                "confisco": "50.9%"
+            }
+        ]
+    },
+    {
+        "origem": "ALPHAVILLE",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 923.8,
+                "confisco": "56.0%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 586.3,
+                "confisco": "64.5%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 773.8,
+                "confisco": "59.3%"
+            }
+        ]
+    },
+    {
+        "origem": "ABCD",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1216.0,
+                "confisco": "42.1%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 847.0,
+                "confisco": "48.7%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 1052.0,
+                "confisco": "44.6%"
+            }
+        ]
+    },
+    {
+        "origem": "SAO PAULO CAPITAL",
+        "vagas": [
+            {
+                "setor": "Logística",
+                "salario_nominal": 2100.0,
+                "sobra_real": 1654.6,
+                "confisco": "21.2%"
+            },
+            {
+                "setor": "Telemarketing",
+                "salario_nominal": 1650.0,
+                "sobra_real": 1249.6,
+                "confisco": "24.3%"
+            },
+            {
+                "setor": "Varejo",
+                "salario_nominal": 1900.0,
+                "sobra_real": 1474.6,
+                "confisco": "22.4%"
+            }
+        ]
+    }
+]
